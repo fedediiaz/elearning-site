@@ -35,7 +35,7 @@ function toggleMenu() {
   <header class="max-w-4xl mx-auto">
     <nav class="navbar">
       <div class="logo-container">
-        <img src="../assets/logo.svg" alt="logo" class="logo" />
+        <img src="../../assets/logo.svg" alt="logo" class="logo" />
       </div>
       <ul class="nav-menu" :class="{ active: isMenuOpen }">
         <li
@@ -138,6 +138,7 @@ nav a {
 .nav-menu {
   position: fixed;
   display: flex;
+  z-index: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -171,6 +172,7 @@ nav a {
 .hamburger {
   display: block;
   cursor: pointer;
+  z-index: 2;
 }
 
 .hamburger.active .bar:nth-child(2) {

@@ -1,13 +1,17 @@
+<script setup>
+import { BoltIcon } from "@heroicons/vue/24/solid";
+</script>
+
 <template>
-  <section class="pt-16">
+  <section class="pt-16 max-w-4xl mx-auto">
     <div class="header-box">
       <img
-        src="../assets/abstract_line_icon.svg"
+        src="../../assets/abstract_line_icon.svg"
         alt=""
         class="absolute top-0 left-0 -translate-x-1/3 -translate-y-1/2 w-7 h-auto"
       />
       <div class="bolt-container rounded-md p-2">
-        <img src="../assets/icon_bolt.svg" alt="bolt" />
+        <BoltIcon class="w-5 md:w-7 h-auto" />
       </div>
       <h1 class="mx-2 text-sm md:text-2xl font-semibold">
         <span class="text-orange-50 font-semibold">Unlock</span> Your Creative
@@ -35,13 +39,13 @@
       </a>
     </div>
     <div class="logos-container">
-      <img class="logos-img" src="../assets/logo-amazon.svg" alt="amazon" />
-      <img class="logos-img" src="../assets/logo-netflix.svg" alt="netflix" />
-      <img class="logos-img" src="../assets/logo-spotify.svg" alt="spotify" />
-      <img class="logos-img" src="../assets/logo-zoom.svg" alt="zoom" />
-      <img class="logos-img" src="../assets/logo-zapier.svg" alt="zapier" />
-      <img class="logos-img" src="../assets/logo-notion.svg" alt="notion" />
-      <img class="logos-img" src="../assets/logo-adobe.svg" alt="adobe" />
+      <img class="logos-img" src="../../assets/logo-amazon.svg" alt="amazon" />
+      <img class="logos-img" src="../../assets/logo-netflix.svg" alt="netflix" />
+      <img class="logos-img" src="../../assets/logo-spotify.svg" alt="spotify" />
+      <img class="logos-img" src="../../assets/logo-zoom.svg" alt="zoom" />
+      <img class="logos-img" src="../../assets/logo-zapier.svg" alt="zapier" />
+      <img class="logos-img" src="../../assets/logo-notion.svg" alt="notion" />
+      <img class="logos-img" src="../../assets/logo-adobe.svg" alt="adobe" />
     </div>
   </section>
 </template>
