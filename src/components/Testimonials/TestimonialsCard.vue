@@ -18,7 +18,7 @@ defineProps([
         <img :src="author_avatar" :alt="author_name" class="w-8">
         <span>{{ author_name }}</span>
       </div>
-      <a href="#" class="px-4 py-2 rounded-md bg-white-97 text-gray-15 border text-center border-white-95 hover:bg-opacity-75 transition-all duration-500 ease-in-out hover:bg-white-90">Read Full Story</a>
+      <a href="#" class="px-4 py-2 rounded-md bg-white-97 text-gray-15 border text-center border-white-95 transition-all duration-500 ease-in-out hover:bg-white-90">Read Full Story</a>
     </div>
   </div>
 </template>

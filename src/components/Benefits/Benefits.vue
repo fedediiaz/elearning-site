@@ -46,7 +46,7 @@ const cards = ref([
       </p>
       <a
         href="#"
-        class="px-4 py-2 flex-shrink-0 rounded-md bg-white text-text hover:bg-opacity-75 transition-all duration-500 ease-in-out hover:bg-white-90"
+        class="px-4 py-2 flex-shrink-0 rounded-md bg-white text-text transition-all duration-500 ease-in-out hover:bg-white-90"
       >
         View All
       </a>

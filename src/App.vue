@@ -5,6 +5,7 @@ import Hero from "./components/Hero/Hero.vue";
 import Benefits from "./components/Benefits/Benefits.vue";
 import Courses from "./components/Courses/Courses.vue";
 import Testimonials from "./components/Testimonials/Testimonials.vue";
+import Pricing from "./components/Pricing/Pricing.vue";
 </script>
 
 <template>
@@ -19,6 +20,7 @@ import Testimonials from "./components/Testimonials/Testimonials.vue";
   <Benefits />
   <Courses />
   <Testimonials />
+  <Pricing />
 </template>
 
 <style scoped></style>
