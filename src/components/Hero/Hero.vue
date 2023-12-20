@@ -6,7 +6,7 @@ import { BoltIcon } from "@heroicons/vue/24/solid";
   <section class="pt-16 max-w-4xl mx-auto">
     <div class="header-box">
       <img
-        src="../../assets/abstract_line_icon.svg"
+        src="@/assets/abstract_line_icon.svg"
         alt=""
         class="absolute top-0 left-0 -translate-x-1/3 -translate-y-1/2 w-7 h-auto"
       />
