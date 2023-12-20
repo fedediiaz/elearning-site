@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from "vue";
+import Logo from './Logo.vue'
 
 let isMenuOpen = ref(false);
 
@@ -34,9 +35,7 @@ function toggleMenu() {
 <template>
   <header class="max-w-4xl mx-auto">
     <nav class="navbar">
-      <div class="logo-container">
-        <img src="@/assets/logo.svg" alt="logo" class="logo" />
-      </div>
+      <Logo />
       <ul class="nav-menu" :class="{ active: isMenuOpen }">
         <li
           class="nav-item"

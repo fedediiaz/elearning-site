@@ -7,9 +7,9 @@
   font-weight: normal;
 }
 
-#app {
+/* #app {
   margin: 8px 16px;
-}
+} */
 
 body {
   @apply bg-white-97;
