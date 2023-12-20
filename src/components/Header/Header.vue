@@ -35,7 +35,7 @@ function toggleMenu() {
   <header class="max-w-4xl mx-auto">
     <nav class="navbar">
       <div class="logo-container">
-        <img src="../../assets/logo.svg" alt="logo" class="logo" />
+        <img src="@/assets/logo.svg" alt="logo" class="logo" />
       </div>
       <ul class="nav-menu" :class="{ active: isMenuOpen }">
         <li
