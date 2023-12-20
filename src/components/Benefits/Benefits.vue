@@ -28,7 +28,7 @@ const cards = ref([
     text: "Develop a portfolio showcasing your skills and abilities to potential employers.",
   },
   {
-    number: 1,
+    number: 6,
     title: "Interactive Learning Environment",
     text: "Collaborate with fellow learners, exchanging ideas and feedback to enhance your understanding.",
   },
