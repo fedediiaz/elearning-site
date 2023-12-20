@@ -24,7 +24,7 @@ function twoPlaces(number) {
     </p>
     <div class="flex items-end w-full mt-2">
       <div
-        class="p-3 border border-white-95 bg-white-99 rounded-md ml-auto w-fit cursor-pointer hover:bg-white-97"
+        class="p-3 border border-white-95 bg-white-99 rounded-md ml-auto w-fit cursor-pointer hover:bg-white-95 transition-all duration-500 ease-in-out"
       >
         <ArrowUpRightIcon class="text-right w-4 text-orange-50" />
       </div>

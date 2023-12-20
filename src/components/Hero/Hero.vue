@@ -27,13 +27,13 @@ import { BoltIcon } from "@heroicons/vue/24/solid";
     <div class="flex items-center justify-center gap-3 mt-10">
       <a
         href="#"
-        class="px-4 py-2 rounded-md bg-orange-50 text-white hover:bg-opacity-75 transition-all duration-500 ease-in-out"
+        class="px-4 py-2 rounded-md bg-orange-50 text-white hover:bg-orange-70 transition-all duration-500 ease-in-out"
       >
         Explore Courses
       </a>
       <a
         href="#"
-        class="px-4 py-2 rounded-md bg-white text-text hover:bg-opacity-75 transition-all duration-500 ease-in-out"
+        class="px-4 py-2 rounded-md bg-white border border-white-95 hover:bg-white-90 text-text hover:bg-white- transition-all duration-500 ease-in-out"
       >
         View Pricing
       </a>

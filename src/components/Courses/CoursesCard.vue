@@ -30,7 +30,7 @@ defineProps([
       {{ description }}
     </p>
     <div class="flex items-end mt-4">
-      <a href="#" class="px-4 py-2 rounded-md flex-grow bg-white-97 text-gray-15 border text-center border-white-95 hover:bg-opacity-75 transition-all duration-500 ease-in-out">Get it Now</a>
+      <a href="#" class="px-4 py-2 rounded-md flex-grow bg-white-97 text-gray-15 border text-center border-white-95 hover:bg-opacity-75 transition-all duration-500 ease-in-out hover:bg-white-90">Get it Now</a>
     </div>
   </div>
 </template>

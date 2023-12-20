@@ -4,15 +4,21 @@ import Header from "./components/Header/Header.vue";
 import Hero from "./components/Hero/Hero.vue";
 import Benefits from "./components/Benefits/Benefits.vue";
 import Courses from "./components/Courses/Courses.vue";
+import Testimonials from "./components/Testimonials/Testimonials.vue";
 </script>
 
 <template>
   <Banner />
   <Header />
   <Hero />
-  <img src="./assets/media-player.png" alt="" class="mt-11 max-w-4xl mx-auto w-full" />
+  <img
+    src="./assets/media-player.png"
+    alt=""
+    class="mt-11 max-w-4xl mx-auto w-full"
+  />
   <Benefits />
   <Courses />
+  <Testimonials />
 </template>
 
 <style scoped></style>

@@ -49,8 +49,12 @@ function toggleMenu() {
         </li>
       </ul>
       <div class="nav-actions">
-        <a href="#" class="">Sign Up</a>
-        <a href="#" class="px-4 py-2 rounded-md bg-orange-50 text-white hover:bg-opacity-75 transition-all duration-500 ease-in-out">Login</a>
+        <a href="#" class="hover:text-orange-50 transition-all duration-500 ease-in-out">Sign Up</a>
+        <a
+          href="#"
+          class="px-4 py-2 rounded-md bg-orange-50 text-white hover:bg-orange-70 transition-all duration-500 ease-in-out"
+          >Login</a
+        >
         <div
           class="hamburger"
           :class="{ active: isMenuOpen }"
@@ -73,7 +77,6 @@ header {
   @apply border-white-95;
   @apply pb-2;
 }
-
 
 .logo-container {
   /* @apply flex;
@@ -123,6 +126,12 @@ nav a {
   transition: all 0.3s ease-in-out;
   background-color: #101010;
   border-radius: 4px;
+}
+
+.nav-link {
+  @apply transition-all;
+  @apply duration-500;
+  @apply ease-in-out;
 }
 
 .nav-link:hover {
