@@ -39,13 +39,13 @@ import { BoltIcon } from "@heroicons/vue/24/solid";
       </a>
     </div>
     <div class="logos-container">
-      <img class="logos-img" src="/images/logo-amazon.svg" alt="amazon" />
-      <img class="logos-img" src="/images/logo-netflix.svg" alt="netflix" />
-      <img class="logos-img" src="/images/logo-spotify.svg" alt="spotify" />
-      <img class="logos-img" src="/images/logo-zoom.svg" alt="zoom" />
-      <img class="logos-img" src="/images/logo-zapier.svg" alt="zapier" />
-      <img class="logos-img" src="/images/logo-notion.svg" alt="notion" />
-      <img class="logos-img" src="/images/logo-adobe.svg" alt="adobe" />
+      <img class="logos-img" src="@/assets/logo-amazon.svg" alt="amazon" />
+      <img class="logos-img" src="@/assets/logo-netflix.svg" alt="netflix" />
+      <img class="logos-img" src="@/assets/logo-spotify.svg" alt="spotify" />
+      <img class="logos-img" src="@/assets/logo-zoom.svg" alt="zoom" />
+      <img class="logos-img" src="@/assets/logo-zapier.svg" alt="zapier" />
+      <img class="logos-img" src="@/assets/logo-notion.svg" alt="notion" />
+      <img class="logos-img" src="@/assets/logo-adobe.svg" alt="adobe" />
     </div>
   </section>
 </template>
